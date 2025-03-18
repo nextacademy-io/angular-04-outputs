@@ -10,7 +10,7 @@ export class ProfilePictureComponent {
   profileUrl = input.required<string>();
 
   pictureStyle = computed(() => ({
-    width: `${this.diameter}px`,
-    height: `${this.diameter}px`,
+    width: `${this.diameter()}px`,
+    height: `${this.diameter()}px`,
   }));
 }
